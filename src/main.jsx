@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename={import.meta.env.Base_URL}>
+  <BrowserRouter basename="/portfolio">
     <App />
   </BrowserRouter>,
 )
