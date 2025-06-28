@@ -1,0 +1,45 @@
+.home__title h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: var(--solid-heading);
+    width: 636px;
+}
+
+.home__title span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    background: linear-gradient(90deg, #13b0f5 2.6%, #e70faa 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 636px;
+}
+
+.home__photo img {
+    width: 349px;
+    height: 349px;
+    border-radius: 100%;
+}
+
+.home__photo{
+    border-radius: 100%;
+    border:  9px solid;
+    width: 349px;
+    height: 349px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

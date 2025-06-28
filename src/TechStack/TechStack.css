@@ -1,0 +1,115 @@
+.TechStackTitle h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 62%;
+    color: var(--solid-heading);
+}
+
+.TechStackTitle p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--dark-content);
+}
+
+.TechStackTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.TechStackImg1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+}
+
+.TechStackImg2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+    margin-right: 15px;
+}
+
+.html {
+    display: flex;
+    transition: .5s;
+}
+
+.html:hover {
+    filter: drop-shadow(0 0 2em #e44f26);
+}
+
+.css {
+    display: flex;
+    transition: .5s;
+}
+
+.css:hover {
+    filter: drop-shadow(0 0 2em #1572b6);
+}
+
+.js {
+    display: flex;
+    transition: .5s;
+}
+
+.js:hover {
+    filter: drop-shadow(0 0 2em #f5de19);
+}
+
+.react {
+    display: flex;
+    transition: .5s;
+}
+
+.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.sass {
+    display: flex;
+    transition: .5s;
+}
+
+.sass:hover {
+    filter: drop-shadow(0 0 2em #cd6799);
+}
+
+.git {
+    display: flex;
+    transition: .5s;
+}
+
+.git:hover {
+    filter: drop-shadow(0 0 2em #de4c36);
+}
+
+.github {
+    display: flex;
+    transition: .5s;
+}
+
+.github:hover {
+    filter: drop-shadow(0 0 2em #000000);
+}
+
+.vscode {
+    display: flex;
+    transition: .5s;
+}
+
+.vscode:hover {
+    filter: drop-shadow(0 0 2em #1f9cf0);
+}
+
+.TechStackImg {
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+    margin-top: 80px;
+}

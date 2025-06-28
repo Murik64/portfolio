@@ -1,0 +1,57 @@
+.contactTitle h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--solid-heading);
+}
+
+.contactTitle h1 span {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    background: linear-gradient(90deg, #13b0f5 2.6%, #e70faa 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contactTitle{
+    margin-top: 149px;
+}
+
+.contactEmail p{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 144%;
+color: var(--solid-heading);
+}
+
+.contactEmail{
+    display: flex;
+    gap: 66px;
+}
+
+.contactLinks{
+    display: flex;
+    gap: 20px;
+}
+
+.contactMain{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.contactFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 280px;
+}

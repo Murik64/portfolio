@@ -1,0 +1,128 @@
+.projectTitle h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 62%;
+    color: var(--solid-heading);
+}
+
+.projectTitle p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--dark-content);
+}
+
+.projectTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.projectCard {
+    width: 373px;
+    height: 567px;
+    background: var(--bg-color);
+    transition: .5s;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 2px 2px 100px 0 rgba(0, 0, 0, 0.2);
+}
+.projectCard:hover{
+    transform: scale(1.03);
+}
+
+.projectCards {
+    display: flex;
+    align-items: center;
+    gap: 47px;
+}
+
+.projectCard img {
+    border-radius: 20px 20px 0 0;
+    width: 375px;
+    height: 260px;
+    margin-left: -2px;
+    margin-top: -2px;
+}
+
+.projectCardText h2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 93%;
+    text-align: center;
+    color: var(--cards-title);
+}
+
+.projectCardText p {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 144%;
+    text-align: start;
+    color: var(--dark-content);
+}
+
+.projectCardText {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin-top: 27px;
+    padding: 0 28px 0 27px;
+}
+
+.projectCardExtra p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    color: var(--solid-heading);
+    margin-top: 12px;
+
+}
+
+.projectCardExtra p span {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 162%;
+    color: var(--solid-heading);
+}
+
+.projectCardLink img {
+    width: 20px;
+    height: 20px;
+}
+
+.projectCardLink a {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--solid-heading);
+}
+
+.projectCardLink {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.projectCardLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 21px;
+    padding: 0 45px 25px 35px;
+}
+
+.projectCardsAll{
+    display: flex;
+    flex-direction: column;
+    gap: 62px;
+}

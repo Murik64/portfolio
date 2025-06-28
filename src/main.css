@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "DM Sans", sans-serif;
+    --main-item: #000;
+    --main-title: #ccc;
+    --cards-bg: #363636;
+    --cards-title: #000;
+    --bg-color: #fff;
+    --solid-heading: #42446e;
+    --dark-mode: #191919;
+    --dark-content: #666;
+}
+
+.darkstyle {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "DM Sans", sans-serif;
+    --main-item: #fff;
+    --main-title: #42446e;
+    --cards-bg: #fff;
+    --cards-title: #ccc;
+    --bg-color: #191919;
+    --solid-heading: #d9d9d9;
+    --dark-mode: #a7a7a7;
+    --dark-content: #a7a7a7;
+}
+
+
+
+.body{
+    background-color: var(--bg-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-top: 78px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

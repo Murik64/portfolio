@@ -1,0 +1,121 @@
+.aboutMe h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 124%;
+    letter-spacing: -0.01em;
+    color: var(--solid-heading);
+}
+
+.aboutMe p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+    color: var(--dark-content);
+    width: 708px;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.trainingCenterItem h3 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: var(--dark-content)
+}
+
+.trainingCenter h1 {
+
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 124%;
+    letter-spacing: -0.01em;
+    color: var(--solid-heading);
+}
+
+.trainingCenterBtn {
+    border-radius: 100px;
+    width: 84px;
+    height: 24px;
+    background: #d7ffe0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+}
+
+.trainingCenterBtn span {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 289%;
+    text-align: center;
+    color: #018c0f;
+}
+
+.trainingCenterItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 704px;
+}
+
+.trainingCenterExtraItem p{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 12px;
+line-height: 233%;
+letter-spacing: 0.08em;
+color: var(--dark-content);
+}
+
+.trainingCenterExtraTime p{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 12px;
+line-height: 233%;
+letter-spacing: 0.08em;
+color: var(--dark-content);
+}
+
+.trainingCenterExtraTime{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.trainingCenterExtraItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.trainingCenterExtra{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutTrainingCenter{
+    width: 704px;
+}
+
+.trainingCenter{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
